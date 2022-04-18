@@ -1,0 +1,16 @@
+{
+    "api":{
+        "product":{
+            "list":[
+                {
+                    "id":1,
+                    "nombre":"sarasa1"
+                },
+                {
+                    "id":2,
+                    "nombre":"sarasa2"
+                }
+            ]
+        }
+    }
+}
