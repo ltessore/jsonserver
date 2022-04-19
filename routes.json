@@ -1,0 +1,4 @@
+{
+    "/api/product/list/personal-care": "/products",
+    "/api/product/getWebProductById?id=1":"/products?id=1"
+}

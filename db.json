@@ -1,16 +1,128 @@
 {
-    "api":{
-        "product":{
-            "list":[
+
+            "products":[
                 {
                     "id":1,
-                    "nombre":"sarasa1"
+                    "categoryId":1,
+                    "subCategoryId":1,
+                    "childCategoryId":1,
+                    "name":"Bife de chorizo",
+                    "slug":"1",
+                    "brand":"1",
+                    "status":"1",
+                    "unitSize":"500g",
+                    "price":1200,
+                    "buyerPrice":1,
+                    "qty":1,
+                    "discountPer":0,
+                    "discount":1,
+                    "total":1,
+                    "netPrice":1200,
+                    "photo":"https://elgourmet.s3.amazonaws.com/recetas/share/bife-_UPgMoHqWDK4R60cwJ8hZVk2izxe71l.png",
+                    "desc":"1",
+                    "createdAt":"",
+                    "updatedAt":"",
+                    "descripcion":"500g de carne a punto. Especial para acompañar con papas fritas"
                 },
                 {
                     "id":2,
-                    "nombre":"sarasa2"
+                    "categoryId":2,
+                    "subCategoryId":2,
+                    "childCategoryId":2,
+                    "name":"Entraña",
+                    "slug":"2",
+                    "brand":"2",
+                    "status":"2",
+                    "unitSize":"500g",
+                    "price":2500,
+                    "buyerPrice":2,
+                    "qty":2,
+                    "discountPer":0,
+                    "discount":2,
+                    "total":2,
+                    "netPrice":2500,
+                    "photo":"https://canalcocina.es/medias/_cache/zoom-27a5946fbd2cacb92cf8f791f8149489-920-518.jpg",
+                    "desc":"2",
+                    "createdAt":"",
+                    "updatedAt":"",
+                    "descripcion":"500g de carne a punto. Especial para acompañar con ensalada"
+                },
+                {
+                    "id":3,
+                    "categoryId":3,
+                    "subCategoryId":3,
+                    "childCategoryId":3,
+                    "name":"Morcilla",
+                    "slug":"3",
+                    "brand":"2",
+                    "status":"2",
+                    "unitSize":"500g",
+                    "price":600,
+                    "buyerPrice":2,
+                    "qty":2,
+                    "discountPer":0,
+                    "discount":2,
+                    "total":2,
+                    "netPrice":600,
+                    "photo":"https://www.clarin.com/img/2021/10/05/1hhcKQW66_1256x620__2.jpg",
+                    "desc":"2",
+                    "createdAt":"",
+                    "updatedAt":"",
+                    "descripcion":"500g de morcilla. Especial para sanguche"
+                }, 
+                {
+                    "id":4,
+                    "categoryId":4,
+                    "subCategoryId":4,
+                    "childCategoryId":4,
+                    "name":"Chinchulines",
+                    "slug":"3",
+                    "brand":"2",
+                    "status":"2",
+                    "unitSize":"500g",
+                    "price":800,
+                    "buyerPrice":2,
+                    "qty":2,
+                    "discountPer":2,
+                    "discount":2,
+                    "total":2,
+                    "netPrice":800,
+                    "photo":"https://andigital.com.ar/images/chinchulin_plato.jpg",
+                    "desc":"2",
+                    "createdAt":"",
+                    "updatedAt":"",
+                    "descripcion":"500g de chinchulin. Especial para comer con limon"
+                }
+            ],
+            
+            "categories":[
+                {
+            	    "id":1,
+                    "name":"personal-care",
+                    "slug":"personal-care",
+                    "createdAt":"",
+                    "updatedAt":""
+
+                }
+            ],
+            "SubCategories":[
+                {   
+                    "id":1,
+                    "categoryId":1,
+                    "name":"frutas",
+                    "createdAt":"",
+                    "updatedAt":""
+                }
+            ],
+            "ChildCategories":[
+                {
+                    "id":1,
+                    "categoryId":1,
+                    "subCatId":1,
+                    "name":"Child",
+                    "createdAt":"",
+                    "updatedAt":""
                 }
             ]
-        }
-    }
+
 }
